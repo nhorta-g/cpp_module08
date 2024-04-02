@@ -3,19 +3,18 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: nuno <nuno@student.42.fr>                  +#+  +:+       +#+         #
+#    By: nhorta-g <nhorta-g@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/03/20 15:56:24 by nuno              #+#    #+#              #
-#    Updated: 2024/03/26 12:57:27 by nuno             ###   ########.fr        #
+#    Updated: 2024/04/02 13:55:19 by nhorta-g         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		=	span
+NAME		=	mutantstack
 
 CXX			=	c++
 
-SRCS		=	main.cpp \
-				Span.cpp
+SRCS		=	main.cpp
 
 CXXFLAGS	=	-Wall -Wextra -Werror -g -std=c++98 #-fsanitize=address
 

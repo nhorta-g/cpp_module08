@@ -6,7 +6,7 @@
 /*   By: nhorta-g <nhorta-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/20 16:02:29 by nuno              #+#    #+#             */
-/*   Updated: 2024/04/01 21:21:27 by nhorta-g         ###   ########.fr       */
+/*   Updated: 2024/04/02 16:19:22 by nhorta-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,12 +18,12 @@ int main()
 	int arr[] = {1, 2, 3, 4, 8};
 	size_t size = sizeof(arr) / sizeof(arr[0]);
 	//std::vector<int> vec(arr, arr + sizeof(arr) / sizeof(arr[0])); //Calling vector constructor with 2 parameters
-	//to create vector filled with elements of array. First parameter is the poiter to begin of the array, second is
+	//to create vector filled with elements of array. First parameter is the pointer to begin of the array, second is
 	//end pointer of array.
 	std::vector<int> vec;
 	for (size_t i = 0; i < size; ++i) {
-        vec.push_back(arr[i]);
-    }
+		vec.push_back(arr[i]);
+	}
 	int num;
 
 	try {
